@@ -25,6 +25,8 @@ mqtt-demo-a/
 └── led2                  (Subscribed by ESP32 → Controls Green LED)
 
 
+
+
 ###  1. Subscribe to all topics
 
     mosquitto_sub -h test.mosquitto.org -t "mqtt-demo-a/#"
