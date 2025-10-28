@@ -1,19 +1,19 @@
-# 🛰️ ESP32 MQTT Sensor Simulation (Wokwi + Mosquitto)
+# ESP32 MQTT Sensor Simulation (Wokwi + Mosquitto)
 
-### 📘 Project Overview
+###  Project Overview
 This project demonstrates how to use an **ESP32** board running **MicroPython** to publish sensor readings (LDR and Temperature) and receive control commands (LED ON/OFF) via the **MQTT protocol**.  
 The simulation runs entirely in **Wokwi** and communicates with the public MQTT broker **test.mosquitto.org**.
 
 ---
 
-## 🧩 Features
-✅ Publishes sensor readings (Light & Temperature)  
-✅ Receives LED control commands via MQTT  
-✅ Uses public broker for easy testing  
-✅ Works entirely in Wokwi simulation  
-✅ Demonstrates bidirectional MQTT communication  
+##  Features
+ Publishes sensor readings (Light & Temperature)  
+ Receives LED control commands via MQTT  
+ Uses public broker for easy testing  
+ Works entirely in Wokwi simulation  
+ Demonstrates bidirectional MQTT communication  
 
-### 🟢 1. Subscribe to all topics
+###  1. Subscribe to all topics
 
     mosquitto_sub -h test.mosquitto.org -t "mqtt-demo-a/#"
 
